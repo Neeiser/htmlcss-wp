@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Utilizzo il Viewport per una maggiore "responsivness" della pagina e delle proporzioni,
@@ -16,9 +17,15 @@ header{
 }
 
 nav{
-    height: 30%;
     background-color: #e1d67a;
     margin: 2% 0;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
 }
 
 main{
