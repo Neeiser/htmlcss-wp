@@ -12,14 +12,10 @@ anche se di sicuro non è corretto come ho strutturato il tutto */
     padding: 2% 10%;
 }
 
-header{
-    background-color: #e579e6;
-}
-
 nav{
-    background-color: #e1d67a;
     margin: 2% 0;
 }
+
 ul{
     list-style: none;
     color: rgba(0, 0, 0, 0.5);
@@ -62,30 +58,33 @@ main{
     font-size: 1.7em;
 }
 
-/* Ho calcolato le varie proporzioni dei rettangoli, anche se viene un lavoro preciso, il tutto risulta poco manutenibile */
-.top{
-    height: 15%;
-    margin-bottom: 2%;
+.block{
+    display: inline-block;
+}
+
+.block img{
+    width: 30%;
+    filter: brightness(70%);
+    border-radius: 20px;
 }
 
 .left{
-    height: 80%;
-    width: 20%;
     float: left;
 }
 
 .center{
-    height: 80%;
-    width: 56%;
     float: left;
-    margin: 0 2%;
 }
-/* Lo "flotto" a destra per semplicità */
+
 .right{
-    height: 80%;
-    width: 20%;
     float: right;
 }
+
+/* .contents::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
 
 footer{
     height: 5%;
