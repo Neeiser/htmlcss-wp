@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilizzo il Viewport per una maggiore "responsivness" della pagina e delle proporzioni,
+anche se di sicuro non è corretto come ho strutturato il tutto */
+.container{
+    height: 100vh;
+    margin: 2% 10%;
+}
+
+header{
+    height: 10%;
+    background-color: #e579e6;
+}
+
+nav{
+    height: 30%;
+    background-color: #e1d67a;
+    margin: 2% 0;
+}
+
+main{
+    height: 50%;
+    background-color: #0186ff;
+    padding-bottom: 2%;
+}
+
+.block{
+    background-color: #abcfe7;
+}
+
+/* Ho calcolato le varie proporzioni dei rettangoli, anche se viene un lavoro preciso, il tutto risulta poco manutenibile */
+.top{
+    height: 15%;
+    margin-bottom: 2%;
+}
+
+.left{
+    height: 80%;
+    width: 20%;
+    float: left;
+}
+
+.center{
+    height: 80%;
+    width: 56%;
+    float: left;
+    margin: 0 2%;
+}
+/* Lo "flotto" a destra per semplicità */
+.right{
+    height: 80%;
+    width: 20%;
+    float: right;
+}
+
+footer{
+    height: 5%;
+    background-color: #8801fe;
+    margin: 2% 0;
+}
