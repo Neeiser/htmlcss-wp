@@ -22,20 +22,39 @@ nav{
 }
 ul{
     list-style: none;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 li{
     display: inline-block;
+    margin-right: 1%;
 }
 
 main{
-    height: 50%;
-    background-color: #0186ff;
     padding-bottom: 2%;
 }
 
-.block{
-    background-color: #abcfe7;
+/* Uso il linearGradient per scurire l'immagine */
+.banner{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/banner.jpg);
+    background-position: center;
+    border-radius: 20px;
+}
+
+.banner-text{
+    padding-left: 50px;
+    padding-top: 250px;
+}
+
+.banner-text span{
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.banner-title{
+    font-size: 1.7em;
 }
 
 /* Ho calcolato le varie proporzioni dei rettangoli, anche se viene un lavoro preciso, il tutto risulta poco manutenibile */
