@@ -9,7 +9,7 @@
 anche se di sicuro non è corretto come ho strutturato il tutto */
 .container{
     height: 100vh;
-    margin: 2% 10%;
+    padding: 2% 10%;
 }
 
 header{
