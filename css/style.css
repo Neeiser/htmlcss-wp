@@ -60,10 +60,11 @@ main{
 
 .block{
     display: inline-block;
+    width: 30%;
 }
 
 .block img{
-    width: 30%;
+    width: 100%;
     filter: brightness(70%);
     border-radius: 20px;
 }
