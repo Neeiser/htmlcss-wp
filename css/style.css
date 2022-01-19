@@ -39,7 +39,7 @@ main{
 }
 
 .banner{
-    position: static;
+    position: relative;
 }
 
 /* Filtro per oscurare l'immagine, in modo che si veda la scritta bianca */
@@ -54,8 +54,8 @@ main{
 .banner-text{
     position: absolute;
     padding-right: 40%;
-    bottom: 250px;
-    left: 200px;
+    bottom: 50px;
+    left: 60px;
 }
 
 .banner-text span{
